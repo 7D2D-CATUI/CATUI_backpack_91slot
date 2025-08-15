@@ -1,7 +1,6 @@
 <CATUI>
 	<set xpath="/windows/window[@name='windowCraftingQueue']/rect[@controller='CraftingQueue']/grid[@name='queue']/@rows">2</set>
 	<set xpath="/windows/window[@name='windowCraftingQueue']/rect[@controller='CraftingQueue']/grid[@name='queue']/@cols">5</set>
-	<set xpath="/windows/window[@name='windowCraftingQueue']/rect[@controller='CraftingQueue']/@pos">0,0</set>
 	<set xpath="/windows/window[@name='windowLooting']/rect[@name='content']/grid[@name='queue']/@rows">11</set>
 	<set xpath="/windows/window[@name='windowLooting']/rect[@name='content']/grid[@name='queue']/@cols">11</set>
 	<append xpath="/windows/window[@name='windowLooting']/panel/rect[@visible='{buttons_visible}']">
@@ -10,7 +9,7 @@
 	<set xpath="/windows/window[@name='emptyInfoPanel']/@width">875</set>
 	<set xpath="/windows/window[@name='emptyInfoPanel']/rect[@name='contentCraftingInfo']/sprite[@name='backgroundMain']/@width">875</set>
 	<set xpath="/windows/window[@name='craftingInfoPanel']/@width">875</set>
-	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/sprite[@depth='5']/@width">875</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/sprite[@name='backgroundMain'][1]/@width">875</set>
 	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='searchControls']/@width">720</set>
 	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='description']/@width">719</set>
 	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='description']/sprite[@name='backgroundMain']/@width">725</set>
@@ -50,7 +49,6 @@
 	<set xpath="/windows/window[@name='windowBackpack']/@width">875</set>
 	<set xpath="/windows/window[@name='windowBackpack']/@height">473</set>
 	<set xpath="/windows/window[@name='windowBackpack']/panel/rect[@width='300']/@pos">203,0</set>
-	<set xpath="/windows/window[@name='windowBackpack']/panel/rect/combobox[@name='cbxLockedSlots']/@value_max">91</set>
 	<set xpath="/windows/window[@name='windowBackpack']/panel/label[@depth='2']/@pos">654,-8</set>
 	<set xpath="/windows/window[@name='windowBackpack']/panel/label[@depth='2']/@width">180</set>
 	<set xpath="/windows/window[@name='windowBackpack']/panel/sprite[@name='costIcon']/@pos">840,-10</set>
